@@ -39,7 +39,7 @@ Let’s build something players will love!
 - On BELLEMINT Fashion Stylist, I managed 2D and 3D art pipelines, overseeing the production and implementation of in-game assets while curating and programming weekly IAP bundles and UX challenges. I helped deliver over 500 assets per month, driving this output through meticulous tracking, strategic sprint planning, and seamless cross-team collaboration. My contributions ensured high-quality, engaging content that aligned with player preferences and elevated monetization.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM1.png" alt="Cute pastel banner" width="50%" />
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM2.png" alt="Cute pastel banner" width="50%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM1.png" alt="Cute pastel banner" width="50%" /> <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/Bbm3.png" alt="Cute pastel banner" width="50%" />
 </p>
 
 🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) - Product and Operations Assistant 2022 - 2023
