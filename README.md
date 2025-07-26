@@ -30,6 +30,7 @@ I bring a creative, fun, and whimsical energy to my work, balanced by determinat
 I believe that the best games are made when everyone — artists, designers, producers, and engineers — feels invested, heard, and motivated to create something bigger than themselves. That’s the kind of team I’m proud to be part of.
 
 Let’s build something players will love!
+</p>
 
 <p align="right">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage2.png" alt="Cute pastel banner" width="45%" />
