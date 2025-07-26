@@ -45,6 +45,7 @@ Let’s build something players will love!
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM2.png" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/bm3.png" alt="Cute pastel banner" width="25%" />
 </p>
 
+
 🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) - Product and Operations Assistant 2022 - 2023
 - On #SelfCare, I planned and executed user Tendtests (playtests), gathering, compiling, and integrating player feedback to refine and improve features. I helped produce assets for testing and supported feature development, while also fostering an engaged online community through platforms like Geneva, Discord, and Twitter — building meaningful connections with players and helping align the product with their needs.
 
