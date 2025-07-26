@@ -50,10 +50,10 @@ Let’s build something players will love!
 - On #SelfCare, I planned and executed user Tendtests (playtests), gathering, compiling, and integrating player feedback to refine and improve features. I helped produce assets for testing and supported feature development, while also fostering an engaged online community through platforms like Geneva, Discord, and Twitter — building meaningful connections with players and helping align the product with their needs.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC1.png" alt="Cute pastel banner" width="50%" />
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC1.jpeg" alt="Cute pastel banner" width="50%" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC2.png" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC3.png" alt="Cute pastel banner" width="25%" />
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC2.jpeg" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC3.jpeg" alt="Cute pastel banner" width="25%" />
 </p>
 ---
 
