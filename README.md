@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage.png" alt="Cute pastel banner" width="80%" />
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage.png" alt="Cute pastel banner" width="60%" />
 </p>
 
 <h1 align="center">🌷 Hannah Duncan 🌷</h1>
