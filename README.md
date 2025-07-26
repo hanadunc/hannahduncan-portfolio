@@ -19,6 +19,7 @@
 
 ## ✨ About Me
 
+<p align="left">
 Hi! I'm Hannah — an Associate Art Producer who loves working with teams to bring beautiful, meaningful game experiences to life.  
 I blend creativity with project management, and I’m especially drawn to **pastel aesthetics**, **collaboration**, and **empowering teams**!
 
