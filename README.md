@@ -22,6 +22,14 @@
 Hi! I'm Hannah — an Associate Art Producer who loves working with teams to bring beautiful, meaningful game experiences to life.  
 I blend creativity with project management, and I’m especially drawn to **pastel aesthetics**, **collaboration**, and **empowering teams**!
 
+Starting my journey at TRU LUV Inc., where I worked on the #SelfCare app, and continuing at Muus Collective on BELLEMINT Fashion Stylist, I’ve gained invaluable experience and built expertise — all while surrounded by amazing colleagues and mentors who’ve shaped my path in the games industry.
+
+I bring a creative, fun, and whimsical energy to my work, balanced by determination and a drive to get things done. I thrive in collaborative teams, where everyone supports each other and shares a vision of delivering memorable games to players.
+
+I believe that the best games are made when everyone — artists, designers, producers, and engineers — feels invested, heard, and motivated to create something bigger than themselves. That’s the kind of team I’m proud to be part of.
+
+Let’s build something players will love!
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage2.png" alt="Cute pastel banner" width="45%" />
   </p>
