@@ -22,7 +22,9 @@
 Hi! I'm Hannah — an Associate Art Producer who loves working with teams to bring beautiful, meaningful game experiences to life.  
 I blend creativity with project management, and I’m especially drawn to **pastel aesthetics**, **collaboration**, and **empowering teams**!
 
-<img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage2.png" alt="Cute pastel banner" width="45%" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage2.png" alt="Cute pastel banner" width="45%" />
+  </p>
 
 ---
 
