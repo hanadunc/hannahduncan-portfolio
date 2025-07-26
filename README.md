@@ -32,7 +32,7 @@ I believe that the best games are made when everyone — artists, designers, pro
 Let’s build something players will love!
 </p>
 
-<p align="right">
+<p align="centre right">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage2.png" alt="Cute pastel banner" width="45%" />
   </p>
 
