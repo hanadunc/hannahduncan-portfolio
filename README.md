@@ -22,10 +22,10 @@ I blend creativity with project management, and I’m especially drawn to **past
 
 ## 💖 Projects
 
-- 🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/)
+🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/)
 - On #SelfCare, I planned and executed user Tendtests (playtests), gathering, compiling, and integrating player feedback to refine and improve features. I helped produce assets for testing and supported feature development, while also fostering an engaged online community through platforms like Geneva, Discord, and Twitter — building meaningful connections with players and helping align the product with their needs.
-- 
-- 💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile)
+  
+💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile)
 - On BELLEMINT Fashion Stylist, I managed 2D and 3D art pipelines, overseeing the production and implementation of in-game assets while curating and programming weekly IAP bundles and UX challenges. I helped deliver over 500 assets per month, driving this output through meticulous tracking, strategic sprint planning, and seamless cross-team collaboration. My contributions ensured high-quality, engaging content that aligned with player preferences and elevated monetization.
 
 ---
