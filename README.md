@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/UVbnJzq.jpg" alt="Pastel banner" width="100%" />
+  <img src="https://i.imgur.com/dummy.png" alt="Pastel Pink Purple Banner" width="100%" style="max-width:1000px; border-radius:8px;" />
 </p>
 
 <h1 align="center">🌷 Hannah Duncan 🌷</h1>
