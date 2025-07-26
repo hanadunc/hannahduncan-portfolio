@@ -40,6 +40,8 @@ Let’s build something players will love!
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM1.png" alt="Cute pastel banner" width="30%" />
+
+  
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM2.png" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/bm3.png" alt="Cute pastel banner" width="25%" />
 </p>
 
