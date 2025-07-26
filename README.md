@@ -26,7 +26,7 @@ I blend creativity with project management, and I’m especially drawn to **past
 
 ## 💖 Projects
 
-💅 [BELLEMINT Fashion Stylist by Muus Collective - Associate Art Content Producer 2024 - 2025](https://www.revolve.com/content/lp/bellemint/mobile)
+💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile) - Associate Art Content Producer 2024 - 2025
 - On BELLEMINT Fashion Stylist, I managed 2D and 3D art pipelines, overseeing the production and implementation of in-game assets while curating and programming weekly IAP bundles and UX challenges. I helped deliver over 500 assets per month, driving this output through meticulous tracking, strategic sprint planning, and seamless cross-team collaboration. My contributions ensured high-quality, engaging content that aligned with player preferences and elevated monetization.
 
 🧘 [#SelfCare by TRU LUV - Product and Operations Assistant 2022 - 2023](https://truluv.jenniefaber.com/self-care/)
