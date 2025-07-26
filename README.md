@@ -13,6 +13,8 @@
   🎮 Associate Art Producer passionate about crafting magical player experiences  
   💼 Experienced with 2D/3D art pipelines | #SelfCare, BELLEMINT  
   🌈 Creativity meets execution with a whimsical touch
+
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/cuteimage2.png" alt="Cute pastel banner" width="75%" />
 </p>
 
 ---
