@@ -22,8 +22,8 @@ I blend creativity with project management, and I’m especially drawn to **past
 
 ## 💖 Projects
 
-- 🧘 [#SelfCare by TRU LUV](https://truluv.ai/selfcare)
-- 💅 [BELLEMINT Fashion Stylist by Muus Collective](https://muuscollective.com)
+- 🧘 [#SelfCare by TRU LUV]([https://truluv.ai/selfcare](https://truluv.jenniefaber.com/self-care/))
+- 💅 [BELLEMINT Fashion Stylist by Muus Collective]([https://muuscollective.com](https://www.revolve.com/content/lp/bellemint/mobile))
 
 ---
 
