@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hannah Duncan - Associate Producer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffd1dc 0%, #d1c4e9 100%);
+      color: #4b3b6b;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 2.8rem;
+      margin-bottom: 0.2rem;
+      color: #8e3fbd;
+    }
+    header h2 {
+      font-weight: 300;
+      font-size: 1.3rem;
+      color: #6f52b3;
+      margin-bottom: 1rem;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #f8c1db;
+      box-shadow: 0 6px 15px rgba(142, 63, 189, 0.3);
+      margin-bottom: 2rem;
+      background: #f8c1db;
+      display: inline-block;
+    }
+
+    main {
+      max-width: 700px;
+      background: #fff0f6;
+      padding: 2rem 2.5rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(142, 63, 189, 0.3);
+      color: #5e4b8b;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    section + section {
+      margin-top: 2rem;
+    }
+
+    h2 {
+      color: #8e3fbd;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    a {
+      color: #a978d1;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      color: #8e3fbd;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1.5rem 1.5rem;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+      header h2 {
+        font-size: 1rem;
+      }
+      .profile-pic {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hannah Duncan</h1>
+    <h2>Associate Producer</h2>
+    <!-- Replace 'cute-image.jpg' below with your image filename -->
+    <img src="cute-image.jpg" alt="Hannah Duncan" class="profile-pic" />
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I’m an Associate Art Producer with a passion for crafting engaging player experiences through thoughtful production of 2D and 3D game art. I specialize in managing art pipelines and bringing game content to life — from concept to implementation — ensuring quality and creativity shine at every stage.</p>
+      
+      <p>Starting my journey at TRU LUV Inc., where I worked on <strong>#SelfCare</strong>, and continuing at Muus Collective on BELLEMINT Fashion Stylist, I’ve gained invaluable experience and built expertise — all while surrounded by amazing colleagues and mentors who’ve shaped my path in the games industry.</p>
+      
+      <p>I bring a creative, fun, and whimsical energy to my work, balanced by determination and a drive to get things done. I thrive in collaborative teams, where everyone supports each other and shares a vision of delivering memorable games to players.</p>
+      
+      <p>I believe that the best games are made when everyone — artists, designers, producers, and engineers — feels invested, heard, and motivated to create something bigger than themselves. That’s the kind of team I’m proud to be part of.</p>
+      
+      <p>Let’s build something players will love!</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Hannah Duncan
+  </footer>
+
+</body>
+</html>
