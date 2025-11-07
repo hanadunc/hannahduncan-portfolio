@@ -43,12 +43,18 @@ Let’s build something players will love!
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM2.png" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/bm3.png" alt="Cute pastel banner" width="25%" />
-- **Art Direction for Character Design:** Supported the character art team by developing hairstyles, colours, makeup looks, accessories, props, and clothing, shaping the overall aesthetic of avatars. Collaborated closely with artists to define visual style, ensuring consistency and detail across characters while maintaining efficient production pipelines.
+
+  - **Art Direction for Character Design:** Supported the character art team by developing hairstyles, colours, makeup looks, accessories, props, and clothing, shaping the overall aesthetic of avatars. Collaborated closely with artists to define visual style, ensuring consistency and detail across characters while maintaining efficient production pipelines.
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2322.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2323.PNG" alt="Cute pastel banner" width="25%" />
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2323.PNG" alt="Cute pastel banner" width="50%" />
-</p>
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2324.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2325.png" alt="Cute pastel banner" width="25%" />
+
+  - **UX/UI Front-End Programming:** Used PlayFab to update and maintain the in-game user-facing feed almost daily, ensuring fresh content, smooth interactions, and consistent visual design. Developed front-end solutions that integrated art assets with dynamic UI elements, enhancing player engagement and retention.
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2177.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2181.PNG" alt="Cute pastel banner" width="25%" />
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2324.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2322.PNG" alt="Cute pastel banner" width="25%" />/><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2325.png" alt="Cute pastel banner" width="25%" /></p>
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2227.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2229.png" alt="Cute pastel banner" width="25%" />
 
 
 🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) - Product and Operations Assistant 2022 - 2023
@@ -65,7 +71,8 @@ Let’s build something players will love!
 ## 🎀 Fun Facts
 
 - I love cats, cozy games, and colorful spreadsheets!
-- Dream project? Something magical, community-driven, and 💗 pink 💗
+- Started making my own vintage lampshades a few years back, sewing together gorgeous fabrics on wire frames!
+- Dream project? Something magical, visually stunning, rich in story and (preferably) 💗 pink 💗
 
 ---
 
