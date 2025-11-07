@@ -44,13 +44,13 @@ Let’s build something players will love!
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM2.png" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/bm3.png" alt="Cute pastel banner" width="25%" />
 
-  - **Art Direction for Character Design:** Supported the character art team by developing hairstyles, colours, makeup looks, accessories, props, and clothing, shaping the overall aesthetic of avatars. Collaborated closely with artists to define visual style, ensuring consistency and detail across characters while maintaining efficient production pipelines.
+- **Art Direction for Character Design:** Supported the character art team by developing hairstyles, colours, makeup looks, accessories, props, and clothing, shaping the overall aesthetic of avatars. Collaborated closely with artists to define visual style, ensuring consistency and detail across characters while maintaining efficient production pipelines.
  <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2322.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2323.PNG" alt="Cute pastel banner" width="25%" />
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2324.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2325.png" alt="Cute pastel banner" width="25%" />
 
-  - **UX/UI Front-End Programming:** Used PlayFab to update and maintain the in-game user-facing feed almost daily, ensuring fresh content, smooth interactions, and consistent visual design. Developed front-end solutions that integrated art assets with dynamic UI elements, enhancing player engagement and retention.
+- **UX/UI Front-End Programming:** Used PlayFab to update and maintain the in-game user-facing feed almost daily, ensuring fresh content, smooth interactions, and consistent visual design. Developed front-end solutions that integrated art assets with dynamic UI elements, enhancing player engagement and retention.
  <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2177.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2181.PNG" alt="Cute pastel banner" width="25%" />
 <p align="center">
