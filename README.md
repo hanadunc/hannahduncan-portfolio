@@ -43,7 +43,12 @@ Let’s build something players will love!
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM2.png" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/bm3.png" alt="Cute pastel banner" width="25%" />
+- **Art Direction for Character Design:** Supported the character art team by developing hairstyles, colours, makeup looks, accessories, props, and clothing, shaping the overall aesthetic of avatars. Collaborated closely with artists to define visual style, ensuring consistency and detail across characters while maintaining efficient production pipelines.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2323.PNG" alt="Cute pastel banner" width="50%" />
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2324.PNG" alt="Cute pastel banner" width="25%" /><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2322.PNG" alt="Cute pastel banner" width="25%" />/><img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2325.png" alt="Cute pastel banner" width="25%" /></p>
 
 
 🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) - Product and Operations Assistant 2022 - 2023
