@@ -55,7 +55,7 @@ Ninja Girl: Action Shorts | TikTok (Coming soon!)
   <img width="1280" height="1280" alt="NG1" src="https://github.com/user-attachments/assets/c85f3194-d3e7-4d28-8c14-b899c8a051aa" />
 </p>
 
-## ⛺ **Total Drama Island** *(Official Roblox Adaptation)* | **In Development** | COMING SOON!
+## ⛺ **Total Drama Island** *(Official Roblox Adaptation)* | COMING SOON!
   * *Adapting the iconic IP, humor, and competitive chaos of Fresh TV's global franchise into an immersive, multiplayer Roblox experience!*
 
 📍 Game Announcement: [animationmagazine.com/TDIRoblox](https://www.animationmagazine.net/2026/03/total-drama-island-gets-roblox-treatment-from-fresh-tv-whirlygig-studios/)
