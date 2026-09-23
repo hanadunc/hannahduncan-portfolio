@@ -13,7 +13,7 @@
 
 
 
-💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines
+💼 Roblox Game Dev • Project & Team Coordination • Asset Pipelines
 
 
 
@@ -21,7 +21,7 @@
 
 
 
-♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist
+♥️ Shipped Titles: Ninja Girl: Slice of Justice • #SelfCare • BELLEMINT: Fashion Stylist
 
 
 
