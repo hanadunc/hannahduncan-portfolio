@@ -10,13 +10,13 @@
 </p>
 
 <p align="left">
-  🎮 Intermediate Producer passionate about crafting magical player experiences<br/>
-  
-  💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines<br/>
-  
-  ♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist<br/>
-  
-  🌈 Creativity meets execution with a whimsical touch
+🎮 Intermediate Producer @ Whirlygig Studios
+
+💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines
+
+📋 Tracking chaos in pretty spreadsheets! ♡
+
+♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist
 </p>
 
 ---
@@ -39,7 +39,9 @@ Let’s build something players will love!
 
 Stepping into this role as an Intermediate Producer has helped me push boundaries in my Production career. From managing asset production pipelines to cross-team coordination, I love bringing creative and development teams together to meet deadlines and ship fun, engaging Roblox games!
 
-## 🥷 Current Projects
+## Current Projects
+
+🥷 WE ARE ALL NINJA GIRL
 
 Ninja Girl: Slice of Justice | OUT NOW ON ROBLOX!
 
@@ -53,6 +55,14 @@ Ninja Girl: Action Shorts | TikTok (Coming soon!)
   <img width="1280" height="1280" alt="NG1" src="https://github.com/user-attachments/assets/c85f3194-d3e7-4d28-8c14-b899c8a051aa" />
 </p>
 
+⛺ **Total Drama Island** *(Official Roblox Adaptation)* | **In Development** COMING SOON!
+  * *Adapting the iconic IP, humor, and competitive chaos of Fresh TV's global franchise into an immersive, multiplayer Roblox experience!*
+
+📍 Game Announcement: [animationmagazine.com/TotalDramaRoblox](https://www.animationmagazine.net/2026/03/total-drama-island-gets-roblox-treatment-from-fresh-tv-whirlygig-studios/)
+
+<p align="center">
+  <img width="800" height="450" alt="TDI1" src="https://github.com/user-attachments/assets/83e1f937-bbee-4e61-9c13-0520877430fd" />
+</p>
 
 ## 💖 Past Projects
 
