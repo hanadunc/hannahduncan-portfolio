@@ -23,11 +23,11 @@
 
 ## ✨ About Me
 
-Hi! I'm Hannah — an Intermediate Producer who loves bringing creative and development teams together to meet deadlines and ship fun, engaging games!
+Hi! I'm Hannah — an indie game Producer who loves bringing creative and development teams together to ship fun, engaging games!
 
-From managing asset production pipelines to cross-team coordination, I bring a fun, whimsical energy balanced by high-level organization and determination. I thrive in collaborative environments where artists, designers, producers, and engineers feel empowered to create magical, memorable experiences for players.
+From managing asset production pipelines to cross-team coordination, I bring a fun, whimsical energy balanced by high-level organization and determination. I thrive in collaborative environments where artists, designers, producers, and devs feel empowered to create magical, memorable experiences for players.
 
-I believe that the best games are made when everyone — artists, designers, producers, and engineers — feels invested, heard, and motivated to create something bigger than themselves. That’s the kind of team I’m proud to be part of.
+I believe that the best games are made when whole teams feel invested, heard, and motivated to create something bigger than themselves. That’s the kind of team I’m proud to be part of.
 
 Let’s build something players will love!
 
