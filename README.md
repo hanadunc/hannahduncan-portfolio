@@ -10,13 +10,13 @@
 </p>
 
 <p align="left">
-🎮 Intermediate Producer @ Whirlygig Studios
+🎮 Intermediate Producer @ Whirlygig Studios<br>
 
-💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines
+💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines<br/>
 
-📋 Tracking chaos in pretty spreadsheets! ♡
+📋 Tracking chaos in pretty spreadsheets! ♡<br/>
 
-♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist
+♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist<br/>
 </p>
 
 ---
