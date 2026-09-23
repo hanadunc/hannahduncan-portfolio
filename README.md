@@ -5,7 +5,7 @@
 <h1 align="center">🌷 Hannah Duncan 🌷</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/role-Game%20Producer-ffb6c1?style=flat-square&logo=love" />
+  <img src="https://img.shields.io/badge/role-Roblox%20Game%20Producer-ffb6c1?style=flat-square&logo=love" />
   <img src="https://img.shields.io/badge/loves-Game%20Art%20%26%20Production-f8bbd0?style=flat-square" />
 </p>
 
