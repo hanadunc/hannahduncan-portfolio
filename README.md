@@ -124,7 +124,8 @@ Playtesting & Community: Planned and executed user Tendtests (playtests), gather
 
 ✨ Dream Project: Something magical, visually stunning, rich in story, and (preferably) 💗 pink 💗
 
+
 <p align="center">
-  Made with 💕 and a sprinkle of stardust
+ 💕 Made with a sprinkle of stardust & sarcasm 💕
 </p>
 
