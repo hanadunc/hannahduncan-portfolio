@@ -11,7 +11,7 @@
 
 <p align="center">
   🎮 Intermediate Producer passionate about crafting magical player experiences<br/>
-  💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines**<br/>
+  💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines<br/>
   ♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist<br/>
   🌈 Creativity meets execution with a whimsical touch
 </p>
