@@ -46,18 +46,16 @@ Let’s build something players will love!
 
 Stepping into this role as an Intermediate Producer has helped me push boundaries in my Production career. From managing asset production pipelines to cross-team coordination, I love bringing creative and development teams together to meet deadlines and ship fun, engaging Roblox games!
 
-## Current Projects
+## 🎮 Current Projects 
+📍 Website: [weareallninjagirl.com](https://weareallninjagirl.com/)
 
-Ninja Girl: Slice of Justice • OUT NOW ON ROBLOX! • #WEAREALLNINJAGIRL 🥷
-<p align="center">
 <img width="766" height="432" alt="NG2" src="https://github.com/user-attachments/assets/819736d0-f7c9-48b2-93d1-8d4c25480ec3" />
-</p>
+
+Ninja Girl: Slice of Justice • OUT NOW ON ROBLOX! •  🥷 
 
 Ninja Girl: Origins • WEBTOON (Coming soon!)
 
 Ninja Girl: Action Shorts • TikTok (Coming soon!)
-
-📍 Website: [weareallninjagirl.com](https://weareallninjagirl.com/)
 
 <p align="center">
   <img width="1280" height="1280" alt="NG1" src="https://github.com/user-attachments/assets/c85f3194-d3e7-4d28-8c14-b899c8a051aa" />
