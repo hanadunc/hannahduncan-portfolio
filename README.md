@@ -28,7 +28,7 @@ I believe that the best games are made when everyone — artists, designers, pro
 
 Let’s build something players will love!
 
-📍 Website: www.whirlygigstudios.com/
+📍 Website: [whirlygigstudios.com](www.whirlygigstudios.com/)
 
 ---
 
@@ -44,7 +44,7 @@ Ninja Girl: Origins | WEBTOON (Coming soon!)
 
 Ninja Girl: Action Shorts | TikTok (Coming soon!)
 
-📍 Website: weareallninjagirl.com
+📍 Website: [weareallninjagirl.com](https://weareallninjagirl.com/)
 
 ## 💖 Past Projects
 
