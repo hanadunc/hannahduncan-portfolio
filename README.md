@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/loves-Game%20Art%20%26%20Production-f8bbd0?style=flat-square" />
 </p>
 
-<p align="center">
+<p align="left">
   🎮 Intermediate Producer passionate about crafting magical player experiences<br/>
   💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines<br/>
   ♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist<br/>
