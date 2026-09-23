@@ -49,6 +49,11 @@ Ninja Girl: Action Shorts | TikTok (Coming soon!)
 
 📍 Website: [weareallninjagirl.com](https://weareallninjagirl.com/)
 
+<p align="center">
+  <img width="1280" height="1280" alt="NG1" src="https://github.com/user-attachments/assets/c85f3194-d3e7-4d28-8c14-b899c8a051aa" />
+</p>
+
+
 ## 💖 Past Projects
 
 💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile) | Associate Art Content Producer (2024 - 2025)
