@@ -28,7 +28,7 @@ I believe that the best games are made when everyone — artists, designers, pro
 
 Let’s build something players will love!
 
-📍 Website: https://www.whirlygigstudios.com/
+📍 Website: www.whirlygigstudios.com/
 
 ---
 
@@ -44,12 +44,11 @@ Ninja Girl: Origins | WEBTOON (Coming soon!)
 
 Ninja Girl: Action Shorts | TikTok (Coming soon!)
 
-📍 Website: https://weareallninjagirl.com
+📍 Website: weareallninjagirl.com
 
 ## 💖 Past Projects
 
-💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile) 
-Associate Art Associate Art Content Producer (2024 - 2025)
+💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile) | Associate Art Content Producer (2024 - 2025)
 
 - **Pipeline & Asset Management:** Managed 2D and 3D art pipelines, delivering over 500 assets per month through tracking, strategic sprint planning, and cross-team collaboration. Curated weekly IAP bundles and UX challenges.
  
@@ -84,8 +83,7 @@ Associate Art Associate Art Content Producer (2024 - 2025)
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2229.png" alt="UX feed example" width="25%" />
 </p>
 
-🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) 
-Product and Operations Assistant (2022 - 2023)
+🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) | Product and Operations Assistant (2022 - 2023)
 
 Playtesting & Community: Planned and executed user Tendtests (playtests), gathering player feedback to refine features while community building across Discord and social channels. 
 
