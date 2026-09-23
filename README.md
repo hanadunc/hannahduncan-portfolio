@@ -10,8 +10,9 @@
 </p>
 
 <p align="center">
-  🎮 Associate Art Producer passionate about crafting magical player experiences<br/>
-  💼 Experienced with 2D/3D art pipelines | #SelfCare, BELLEMINT<br/>
+  🎮 **Intermediate Producer** passionate about crafting magical player experiences<br/>
+  💼 **Roblox Game Dev | Project & Team Coordination | Asset Pipelines**<br/>
+  ♥️ **Shipped Titles:** Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist<br/>
   🌈 Creativity meets execution with a whimsical touch
 </p>
 
@@ -19,24 +20,39 @@
 
 ## ✨ About Me
 
-Hi! I'm Hannah — an Associate Art Producer who loves working with teams to bring beautiful, meaningful game experiences to life.  
-I blend creativity with project management, and I’m especially drawn to **pastel aesthetics**, **collaboration**, and **empowering teams**!
+Hi! I'm Hannah — an Intermediate Producer who loves bringing creative and development teams together to meet deadlines and ship fun, engaging games!
 
-Starting my journey at TRU LUV Inc., where I worked on the #SelfCare app, and continuing at Muus Collective on BELLEMINT Fashion Stylist, I’ve gained invaluable experience and built expertise — all while surrounded by amazing colleagues and mentors who’ve shaped my path in the games industry.
-
-I bring a creative, fun, and whimsical energy to my work, balanced by determination and a drive to get things done. I thrive in collaborative teams, where everyone supports each other and shares a vision of delivering memorable games to players.
+From managing asset production pipelines to cross-team coordination, I bring a fun, whimsical energy balanced by high-level organization and determination. I thrive in collaborative environments where artists, designers, producers, and engineers feel empowered to create magical, memorable experiences for players.
 
 I believe that the best games are made when everyone — artists, designers, producers, and engineers — feels invested, heard, and motivated to create something bigger than themselves. That’s the kind of team I’m proud to be part of.
 
 Let’s build something players will love!
 
+📍 Website: https://www.whirlygigstudios.com/
+
 ---
 
-## 💖 Projects
+🎡 Producer | Whirlygig Studios (current role)
 
-💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile) - Associate Art Content Producer 2024 - 2025  
-- Managed 2D and 3D art pipelines, overseeing production and implementation of in-game assets while curating weekly IAP bundles and UX challenges. Delivered over 500 assets per month through meticulous tracking, strategic sprint planning, and seamless cross-team collaboration.  
+Stepping into this role as an Intermediate Producer has helped me push boundaries in my Production career. From managing asset production pipelines to cross-team coordination, I love bringing creative and development teams together to meet deadlines and ship fun, engaging Roblox games!
 
+## 🥷 Current Projects
+
+Ninja Girl: Slice of Justice | OUT NOW ON ROBLOX!
+
+Ninja Girl: Origins | WEBTOON (Coming soon!)
+
+Ninja Girl: Action Shorts | TikTok (Coming soon!)
+
+📍 Website: https://weareallninjagirl.com
+
+## 💖 Past Projects
+
+💅 [BELLEMINT Fashion Stylist by Muus Collective](https://www.revolve.com/content/lp/bellemint/mobile) 
+Associate Art Associate Art Content Producer (2024 - 2025)
+
+- **Pipeline & Asset Management:** Managed 2D and 3D art pipelines, delivering over 500 assets per month through tracking, strategic sprint planning, and cross-team collaboration. Curated weekly IAP bundles and UX challenges.
+ 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/BM1.png" alt="BELLEMINT in-game banner" width="50%" />
 </p>
@@ -46,7 +62,7 @@ Let’s build something players will love!
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/bm3.png" alt="Character assets" width="25%" />
 </p>
 
-- **Art Direction for Character Design:** Supported the character art team by developing hairstyles, colours, makeup looks, accessories, props, and clothing, shaping the overall aesthetic of avatars. Ensured visual consistency and detail while maintaining efficient production pipelines.  
+- **Art Direction for Character Design:** Character Art Direction: Supported the character art team by developing hairstyles, colors, makeup looks, accessories, props, and clothing to maintain visual consistency.  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2322.PNG" alt="Character hairstyles" width="25%" />
@@ -57,7 +73,7 @@ Let’s build something players will love!
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2325.png" alt="Character outfits" width="25%" />
 </p>
 
-- **UX/UI Front-End Programming:** Used PlayFab to update and maintain the in-game user-facing feed almost daily, ensuring fresh content, smooth interactions, and consistent visual design. Developed front-end solutions integrating art assets with dynamic UI elements.  
+- **UX/UI Front-End Programming:** UX/UI Front-End & LiveOps: Utilized PlayFab to update and maintain the user-facing feed, integrating art assets with dynamic UI elements.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2177.PNG" alt="UX feed example" width="25%" />
@@ -68,8 +84,10 @@ Let’s build something players will love!
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/IMG_2229.png" alt="UX feed example" width="25%" />
 </p>
 
-🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) - Product and Operations Assistant 2022 - 2023  
-- Planned and executed user Tendtests (playtests), gathering and integrating player feedback to refine features. Produced testing assets and supported feature development while fostering community engagement through platforms like Geneva, Discord, and Twitter.  
+🧘 [#SelfCare by TRU LUV](https://truluv.jenniefaber.com/self-care/) 
+Product and Operations Assistant (2022 - 2023)
+
+Playtesting & Community: Planned and executed user Tendtests (playtests), gathering player feedback to refine features while community building across Discord and social channels. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hanadunc/hannahduncan-portfolio/main/SC4.png" alt="#SelfCare app screenshot" width="25%" />
@@ -84,9 +102,11 @@ Let’s build something players will love!
 
 ## 🎀 Fun Facts
 
-- I love cats, cozy games, and colorful spreadsheets!  
-- Started making my own vintage lampshades, sewing gorgeous fabrics on wire frames!  
-- Dream project? Something magical, visually stunning, rich in story and (preferably) 💗 pink 💗
+🐱 I love cats, cozy games, and colorful spreadsheets!
+
+🧵 I make my own vintage lampshades, sewing gorgeous fabrics on wire frames.
+
+✨ Dream Project: Something magical, visually stunning, rich in story, and (preferably) 💗 pink 💗
 
 <p align="center">
   Made with 💕 and a sprinkle of stardust
