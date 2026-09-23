@@ -9,15 +9,19 @@
   <img src="https://img.shields.io/badge/loves-Game%20Art%20%26%20Production-f8bbd0?style=flat-square" />
 </p>
 
-<p align="left">
 🎮 Intermediate Producer @ Whirlygig Studios
+
+
 
 💼 Roblox Game Dev | Project & Team Coordination | Asset Pipelines
 
-📋 *Tracking chaos in pretty spreadsheets!* ♡
 
-♥️ **Shipped Titles:** Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist
-</p>
+
+📋 Tracking chaos in pretty spreadsheets! ♡
+
+
+
+♥️ Shipped Titles: Ninja Girl: Slice of Justice | #SelfCare | BELLEMINT: Fashion Stylist
 
 ---
 
