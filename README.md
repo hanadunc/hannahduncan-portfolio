@@ -48,7 +48,7 @@ Stepping into this role as an Intermediate Producer has helped me push boundarie
 
 ## Current Projects
 
-#WEAREALLNINJAGIRL 🥷 Ninja Girl: Slice of Justice • OUT NOW ON ROBLOX!
+Ninja Girl: Slice of Justice • OUT NOW ON ROBLOX! • #WEAREALLNINJAGIRL 🥷
 <p align="center">
 <img width="766" height="432" alt="NG2" src="https://github.com/user-attachments/assets/819736d0-f7c9-48b2-93d1-8d4c25480ec3" />
 </p>
