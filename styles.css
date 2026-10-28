@@ -44,6 +44,12 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -90,7 +96,7 @@ a:hover {
 }
 
 /* ==========================================================================
-   4. SECTION HEADERS & PROJECT TITLES (UNIFIED TYPOGRAPHY)
+   4. SECTION HEADERS & PROJECT TITLES (DESKTOP)
    ========================================================================== */
 h2,
 .section-title-main {
@@ -116,7 +122,7 @@ h2::before, h2::after,
   color: var(--accent-gold) !important;
 }
 
-/* Project Titles: Silkscreen 8-bit aesthetic */
+/* Project Titles */
 h3,
 .project-header h3,
 .project-card h3 {
@@ -211,28 +217,32 @@ h4,
 .twinkle-spot.star-r4 { top: 40.5%; left: 70.8%; width: 12px; height: 12px; animation-duration: 5.5s; animation-delay: 3.8s; }
 
 /* ==========================================================================
-   6. SUB-NAV BAR (PROMINENT PIXEL FONT & BALANCED GAP)
+   6. SUB-NAV BAR (SINGLE ROW ON DESKTOP)
    ========================================================================== */
 .sub-nav {
+  position: relative !important;
+  z-index: 10 !important;
   display: flex !important;
+  flex-direction: row !important;
   justify-content: center !important;
   align-items: center !important;
   flex-wrap: nowrap !important;
   gap: 1.75rem !important;
-  margin: 0.35rem auto 3.75rem auto !important;
+  margin: -0.65rem auto 7rem auto !important; /* Pushes the About section down into a relaxed, airy position */
   padding: 0 1rem !important;
   max-width: 1100px !important;
   white-space: nowrap !important;
 }
 
 .nav-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.75rem;
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 1.75rem !important;
 }
 
 .sub-nav a {
-  font-family: var(--font-pixel) !important;
+  font-family: 'Press Start 2P', monospace !important;
   font-size: 0.85rem !important;
   line-height: 1.2 !important;
   color: var(--accent-gold) !important;
@@ -240,7 +250,14 @@ h4,
   text-decoration: none !important;
   text-transform: uppercase !important;
   display: inline-block !important;
+  outline: none !important;
   transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease !important;
+}
+
+.sub-nav a:focus,
+.sub-nav a:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .sub-nav a:hover {
@@ -257,9 +274,9 @@ h4,
   animation: pulseStar 2.5s infinite ease-in-out;
 }
 
-/* Hidden by default on desktop; activated in mobile media query */
+/* Mobile star divider is hidden on desktop */
 .mobile-nav-star {
-  display: none;
+  display: none !important;
 }
 
 /* ==========================================================================
@@ -268,7 +285,7 @@ h4,
 .content-container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 1rem 3rem 1rem;
+  padding: 0; /* Pushes the About Me card down to mirror the banner gap */
 }
 
 .project-card {
@@ -340,7 +357,7 @@ section {
   top: 0.15rem;
 }
 
-/* Button Links */
+/* Buttons */
 .project-links {
   display: flex !important;
   flex-direction: row;
@@ -377,6 +394,46 @@ section {
   opacity: 1;
 }
 
+/* About Me Bottom Row: Clustered side-by-side */
+.about-footer-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important; /* Pulls both together on the left */
+  gap: 1.5rem !important;                 /* Controlled, elegant breathing room */
+  margin-top: 1.5rem !important;
+  padding-top: 0.5rem !important;
+}
+
+.about-footer-row .about-links {
+  margin: 0 !important;
+}
+
+.whirlygig-crest-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whirlygig-crest-img {
+  width: 52px;                           /* Slightly dialed back to complement button height */
+  height: 52px;
+  object-fit: contain;
+  mix-blend-mode: screen;
+  /* Subdued antique gold: lower saturation and balanced brightness */
+  filter: invert(1) sepia(0.85) saturate(2.2) hue-rotate(5deg) brightness(0.95);
+  opacity: 0.7;                          /* Blends softly into the card background */
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Subtle glow only when actively hovering the row */
+.about-footer-row:hover .whirlygig-crest-img {
+  opacity: 0.95;
+  transform: scale(1.05);
+  filter: invert(1) sepia(0.9) saturate(2.8) hue-rotate(5deg) brightness(1.05) drop-shadow(0 0 6px rgba(247, 219, 135, 0.3));
+}
+
 /* ==========================================================================
    8. ACTIVE PRODUCTIONS (TDI & NINJA GIRL DESKTOP LAYOUTS)
    ========================================================================== */
@@ -388,28 +445,40 @@ section {
   display: block;
 }
 
+/* Desktop: 2-Column Split Layout with Poster on the Right */
 .project-split-layout {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 2rem;
-  align-items: start;
-  margin-bottom: 1.5rem;
+  display: grid !important;
+  grid-template-columns: 1fr 300px !important;
+  gap: 2rem !important;
+  align-items: start !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .project-split-layout .project-info {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.project-split-layout .featured-media {
+  order: initial !important;
+  width: 100% !important;
 }
 
 .project-split-layout .featured-hero-img {
-  width: 100%;
-  max-height: 440px;
-  object-fit: cover;
-  object-position: top center;
+  width: 100% !important;
+  max-height: 440px !important;
+  object-fit: contain !important;
+  border-radius: 4px !important;
+}
+
+#ninja-girl .project-links,
+#tdi .project-links {
+  margin-top: 1.5rem !important;
+  margin-bottom: 2rem !important;
 }
 
 /* ==========================================================================
-   9. CAROUSELS & BELLEMINT GALLERIES
+   9. CAROUSELS & BELLEMINT GALLERIES (DESKTOP)
    ========================================================================== */
 .carousels-container {
   display: flex;
@@ -548,12 +617,12 @@ section {
   border-color: rgba(247, 219, 135, 0.65) !important;
 }
 
-/* Bellemint Static 5-Card Rows: Desktop 5-Columns Edge-to-Edge */
+/* Bellemint Static 5-Card Rows: Centered Edge-to-Edge */
 .carousel-wrapper.bellemint-static-row {
   display: block !important;
   width: 100% !important;
   box-sizing: border-box !important;
-  padding: 1rem !important;
+  padding: 1.25rem 1rem !important;
 }
 
 .carousel-wrapper.bellemint-static-row .carousel-track {
@@ -561,16 +630,21 @@ section {
   grid-template-columns: repeat(5, 1fr) !important;
   gap: 1rem !important;
   width: 100% !important;
+  margin: 0 auto !important;
+  justify-content: center !important;
+  align-items: center !important;
   overflow: visible !important;
   padding: 0 !important;
 }
 
 .carousel-wrapper.bellemint-static-row .carousel-track img {
   width: 100% !important;
+  max-width: 100% !important;
   height: auto !important;
   aspect-ratio: 9 / 16 !important;
   object-fit: cover !important;
   flex: none !important;
+  margin: 0 auto !important;
 }
 
 /* ==========================================================================
@@ -634,7 +708,7 @@ section {
 }
 
 /* ==========================================================================
-   11. WITCHY WIDGET SHOWCASE & TAROT CONTAINER FIXES
+   11. WITCHY WIDGET SHOWCASE (DESKTOP: 3 IN A ROW)
    ========================================================================== */
 .widget-showcase {
   text-align: center;
@@ -693,12 +767,13 @@ section {
   display: block;
 }
 
+/* Strictly 3 columns on Desktop */
 .widget-grid-trio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  align-items: stretch;
-  margin-top: 2rem;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.5rem !important;
+  align-items: stretch !important;
+  margin-top: 2rem !important;
 }
 
 .widget-card-item {
@@ -721,7 +796,7 @@ section {
 
 .widget-img-box {
   width: 100%;
-  height: 480px;
+  height: 340px !important;            /* Reduced from 480px to eliminate dead space on desktop */
   background: #0d0d11;
   border-radius: 8px;
   overflow: hidden;
@@ -729,7 +804,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.85rem;
   box-sizing: border-box;
 }
 
@@ -768,7 +843,7 @@ section {
 }
 
 /* ==========================================================================
-   12. FOOTER & KEYFRAME ANIMATIONS
+   12. FOOTER & ANIMATIONS
    ========================================================================== */
 footer {
   text-align: center;
@@ -825,27 +900,35 @@ footer {
 }
 
 /* ==========================================================================
-   13. DEDICATED RESPONSIVE / MOBILE MEDIA QUERIES
+   13. DEDICATED RESPONSIVE / MOBILE MEDIA QUERIES (ONLY UNDER 768px)
    ========================================================================== */
-/* Navigation: 3 clean, balanced symmetrical rows on mobile */
-  .sub-nav {
+@media (max-width: 768px) {
+  .site-header {
+    padding-top: 1rem !important;
+  }
+
+.sub-nav {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    gap: 0.75rem !important;
-    margin-bottom: 2rem !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
     white-space: normal !important;
+    padding: 0 0.5rem !important;
+    margin: 0 auto 2rem auto !important;
+    gap: 0.75rem !important;
   }
 
   .nav-row {
-    display: flex !important;
-    align-items: center !important;
+    width: 100% !important;
     justify-content: center !important;
-    gap: 0.75rem !important;
   }
 
-  .sub-nav a {
+.sub-nav a {
+    font-family: 'Press Start 2P', monospace !important;
     font-size: 0.72rem !important;
+    text-transform: uppercase !important;
     padding: 0.2rem 0.3rem !important;
   }
 
@@ -854,11 +937,12 @@ footer {
     display: inline-block !important;
   }
 
+  /* Show the second star for symmetrical Personal Projects flanking on mobile */
   .mobile-nav-star {
     display: inline-block !important;
   }
 
-  /* Ninja Girl spacing: tuck links closer to bullet points to match TDI */
+  /* Tighten Ninja Girl spacing on mobile */
   #ninja-girl .project-bullet-list {
     margin-bottom: 0.5rem !important;
   }
@@ -868,7 +952,7 @@ footer {
     margin-bottom: 1.5rem !important;
   }
 
-  /* Stack Ninja Girl Layout & Fix Poster Proportions */
+  /* Stack Ninja Girl Layout vertically for mobile screens */
   .project-split-layout {
     grid-template-columns: 1fr !important;
     gap: 1.25rem !important;
@@ -876,19 +960,29 @@ footer {
   }
 
   .project-split-layout .featured-media {
-    order: 2;
+    order: 2 !important;
     width: 100% !important;
   }
 
   .project-split-layout .featured-hero-img {
     width: 100% !important;
-    height: auto !important;             /* Eliminates squishing */
-    max-height: none !important;        /* Restores full vertical poster height */
+    height: auto !important;
+    max-height: none !important;
     object-fit: contain !important;
     display: block !important;
   }
 
-  /* Bellemint Hair Feature: Single Row with Sleek Mobile Scrollbar */
+  /* Stack Widgets into Single Column on mobile */
+  .widget-grid-trio {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .widget-img-box {
+    height: 380px !important;
+  }
+
+  /* Bellemint Hair Feature: Single Row with Gold Scrollbar on mobile */
   .feature-gallery {
     display: flex !important;
     flex-wrap: nowrap !important;
@@ -899,8 +993,6 @@ footer {
     width: 100% !important;
     padding-bottom: 0.85rem !important;
     margin-top: 1.25rem !important;
-
-    /* Firefox */
     scrollbar-width: thin !important;
     scrollbar-color: rgba(247, 219, 135, 0.6) rgba(14, 14, 18, 0.7) !important;
   }
@@ -924,7 +1016,7 @@ footer {
 
   .feature-gallery img {
     flex: 0 0 auto !important;
-    width: 130px !important;            /* Fixed width so cards maintain clean portrait proportions */
+    width: 130px !important;
     height: 230px !important;
     aspect-ratio: 9 / 16 !important;
     object-fit: cover !important;
@@ -933,7 +1025,7 @@ footer {
     scroll-snap-align: start !important;
   }
 
-  /* Bellemint Daily Challenges & Stylist Edits: Scrollable with Sleek Scrollbar */
+  /* Bellemint Daily Challenges & Stylist Edits: Scrollable with Gold Scrollbar on mobile */
   .carousel-wrapper.bellemint-static-row {
     padding: 0.75rem !important;
   }
@@ -974,16 +1066,6 @@ footer {
     scroll-snap-align: start !important;
   }
 
-  /* Stack Widgets into Single Column */
-  .widget-grid-trio {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem !important;
-  }
-
-  .widget-img-box {
-    height: 380px !important;
-  }
-
   .project-card {
     padding: 1.25rem !important;
     margin-bottom: 2rem !important;
@@ -996,6 +1078,7 @@ footer {
   h3, .project-header h3, .project-card h3 {
     font-size: 1rem !important;
   }
+}
 
 @media (max-width: 480px) {
   .sub-nav a {
@@ -1027,5 +1110,15 @@ footer {
 
   .app-screenshots-grid::-webkit-scrollbar-track {
     margin: 0 1rem !important;
+ 
+ }
+
+.about-footer-row {
+    justify-content: flex-start !important;
+    gap: 1rem !important;
   }
-}
+  
+  .whirlygig-crest-img {
+    width: 44px !important;
+    height: 44px !important;
+  }
