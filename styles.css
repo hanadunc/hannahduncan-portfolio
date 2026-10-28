@@ -367,7 +367,9 @@ section {
   top: 0.15rem;
 }
 
-/* Buttons */
+/* ==========================================================================
+   BUTTONS & PROJECT LOGO BADGES
+   ========================================================================== */
 .project-links {
   display: flex !important;
   flex-direction: row;
@@ -378,6 +380,7 @@ section {
   flex-wrap: wrap;
 }
 
+/* KEEP THIS: Styles the button tags */
 .project-links a {
   display: inline-flex !important;
   align-items: center;
@@ -395,6 +398,7 @@ section {
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* KEEP THIS: Button hover states */
 .project-links a:hover {
   background: var(--accent-gold);
   color: var(--bg-color);
@@ -403,6 +407,103 @@ section {
   box-shadow: 0 4px 12px rgba(247, 219, 135, 0.25);
   opacity: 1;
 }
+
+/* ==========================================================================
+   PROJECT LINKS ROW & EMBEDDED LOGO BADGES (TIGHT LOCKUP)
+   ========================================================================== */
+.project-links-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important; /* Pulls logos right beside the buttons */
+  gap: 1.5rem !important;                 /* Same spacing as the Whirlygig lockup */
+  margin: 1.5rem 0 !important;
+  flex-wrap: wrap !important;
+}
+
+.project-links-row .project-links {
+  margin: 0 !important;
+}
+
+.project-logo-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+.project-logo-badge .card-logo-img {
+  object-fit: contain;
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+  opacity: 0.9;
+}
+
+/* 1. TDI: Natural authentic yellow/brown colors, no heavy filter */
+.tdi-badge .card-logo-img {
+  max-height: 48px;
+  max-width: 150px;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.6));
+}
+.project-links-row:hover .tdi-badge .card-logo-img {
+  opacity: 1;
+  transform: scale(1.07);
+}
+
+/* 2. Ninja Girl: Authentic yellow graffiti colors, scaled to full optical presence */
+.ng-badge .card-logo-img {
+  max-height: 76px !important;            /* Substantially enlarged */
+  max-width: 200px !important;
+  mix-blend-mode: screen;                 /* Seamlessly knocks out the black background */
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.6));
+  opacity: 0.95;
+}
+.project-links-row:hover .ng-badge .card-logo-img {
+  opacity: 1;
+  transform: scale(1.07);
+}
+
+/* 3. Bellemint: Rich, warm celestial gold (no silver/white cast) */
+.bellemint-badge .card-logo-img {
+  max-height: 24px;
+  max-width: 150px;
+  object-fit: contain;
+  /* Shifted from silver-ivory to solid, warm antique gold */
+  filter: invert(1) sepia(1) saturate(3.8) hue-rotate(5deg) brightness(1);
+  opacity: 0.85;
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+}
+
+.project-links-row:hover .bellemint-badge .card-logo-img {
+  opacity: 1;
+  transform: scale(1.04);
+  filter: invert(1) sepia(1) saturate(4.2) hue-rotate(5deg) brightness(1.1) drop-shadow(0 0 6px rgba(247, 219, 135, 0.4));
+}
+
+/* 4. TRU LUV: Neutralized to grayscale, then identical Whirlygig vintage gold formula */
+.truluv-badge .card-logo-img {
+  max-height: 30px;
+  max-width: 140px;
+  object-fit: contain;
+  /* Neutralizes pastel lines completely, then applies pure Whirlygig gold */
+  filter: grayscale(1) invert(1) sepia(0.85) saturate(2.2) hue-rotate(5deg) brightness(0.95);
+  opacity: 0.7;
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+}
+
+/* Shared Hover States: Identical subtle lift and soft celestial gold glow */
+.project-links-row:hover .bellemint-badge .card-logo-img {
+  opacity: 0.95;
+  transform: scale(1.04);
+  filter: invert(1) sepia(0.9) saturate(2.8) hue-rotate(5deg) brightness(1.05) drop-shadow(0 0 6px rgba(247, 219, 135, 0.35));
+}
+
+.project-links-row:hover .truluv-badge .card-logo-img {
+  opacity: 0.95;
+  transform: scale(1.04);
+  filter: grayscale(1) invert(1) sepia(0.9) saturate(2.8) hue-rotate(5deg) brightness(1.05) drop-shadow(0 0 6px rgba(247, 219, 135, 0.35));
+}
+
+
 
 /* About Me Bottom Row: Clustered side-by-side */
 .about-footer-row {
