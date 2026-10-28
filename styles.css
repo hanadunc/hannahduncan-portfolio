@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
-
 /* ==========================================================================
-   1. LOCAL FONTS
+   1. CUSTOM FONTS & IMPORTS
    ========================================================================== */
 @font-face {
   font-family: 'Pixelta';
-  src: url('assets/fonts/PixeltaRegular-lxoDw.ttf') format('truetype');
+  src: url('fonts/PixeltaRegular-lxoDw.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Silkscreen';
-  src: url('assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+  src: url('fonts/Silkscreen-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +19,6 @@
    2. GLOBAL VARIABLES & THEME SETUP
    ========================================================================== */
 :root {
-  /* Color Palette */
   --bg-color: #0b0b0b;
   --card-bg: #141414;
   --accent-gold: #F7DB87;
@@ -32,14 +29,14 @@
   --transition-speed: 0.2s ease;
 
   /* Typography */
-  --font-serif-gothic: 'Cinzel', Georgia, serif;
-  --font-pixel-heading: 'Silkscreen', monospace;
   --font-pixel: 'Press Start 2P', monospace;
+  --font-silkscreen: 'Silkscreen', monospace;
+  --font-gothic: 'Pixelta', monospace;
   --font-body: 'Inter', system-ui, sans-serif;
 }
 
 /* ==========================================================================
-   3. BASE RESETS & TYPOGRAPHY
+   3. BASE RESETS
    ========================================================================== */
 * {
   margin: 0;
@@ -76,48 +73,6 @@ body {
   background: var(--accent-gold);
 }
 
-/* SECTION TITLES (ELEGANT CINZEL SERIF GOTHIC) */
-h1, h2, .section-title-main {
-  font-family: var(--font-serif-gothic) !important;
-  color: var(--accent-gold) !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.14em !important;
-  text-transform: uppercase !important;
-}
-
-h2,
-.project-card h2,
-#about h2,
-#active-productions h2,
-#personal-projects h2,
-#archive h2 {
-  font-family: var(--font-serif-gothic) !important;
-  font-size: 1.5rem !important;
-  border-bottom: 1px solid var(--border-gold);
-  padding-bottom: 0.6rem;
-  margin-bottom: 1.75rem;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-h2::before, h2::after {
-  content: "✦";
-  font-size: 0.9rem;
-  color: var(--accent-gold);
-}
-
-/* Game & Sub-Project Titles */
-h3,
-.project-header h3,
-.project-card h3 {
-  font-family: var(--font-pixel-heading) !important;
-  font-size: 1.25rem;
-  letter-spacing: 0.06em;
-  color: var(--accent-gold);
-  text-transform: uppercase;
-}
-
 p {
   color: var(--text-muted);
   font-size: 0.95rem;
@@ -135,59 +90,15 @@ a:hover {
 }
 
 /* ==========================================================================
-   NAVIGATION BAR (SILKSCREEN RETRO-PIXEL)
-   ========================================================================== */
-.sub-nav {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
-  gap: 1.5rem !important;
-  margin: 2.5rem auto 3rem auto !important;
-  padding: 0 1rem !important;
-  max-width: 1100px;
-}
-
-.sub-nav a {
-  font-family: 'Silkscreen', monospace !important;
-  font-size: 0.95rem !important; /* Scaled up to be clearly readable */
-  font-weight: 700 !important;
-  color: var(--accent-gold, #F7DB87) !important;
-  letter-spacing: 0.08em !important;
-  text-decoration: none !important;
-  text-transform: uppercase !important;
-  display: inline-block !important;
-  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease !important;
-}
-
-.sub-nav a:hover {
-  color: #ffffff !important;
-  text-shadow: 0 0 10px rgba(247, 219, 135, 0.8) !important;
-  transform: translateY(-2px) !important;
-}
-
-.sub-nav .nav-star {
-  font-size: 0.85rem !important;
-  color: var(--accent-gold, #F7DB87) !important;
-  opacity: 0.75 !important;
-  user-select: none;
-}
-
-/* ==========================================================================
-   SECTION HEADINGS (MATCHING SILKSCREEN RETRO-PIXEL)
+   4. SECTION HEADERS & PROJECT TITLES (UNIFIED TYPOGRAPHY)
    ========================================================================== */
 h2,
-.project-card h2,
-#about h2,
-#active-productions h2,
-#personal-projects h2,
-#archive h2,
 .section-title-main {
-  font-family: 'Silkscreen', monospace !important;
-  font-size: 1.35rem !important;
-  font-weight: 700 !important;
-  color: var(--accent-gold, #F7DB87) !important;
-  letter-spacing: 0.12em !important;
+  font-family: var(--font-pixel) !important;
+  font-size: 0.85rem !important;
+  font-weight: normal !important;
+  color: var(--accent-gold) !important;
+  letter-spacing: 0.06em !important;
   text-transform: uppercase !important;
   border-bottom: 1px solid var(--border-gold) !important;
   padding-bottom: 0.6rem !important;
@@ -197,16 +108,63 @@ h2,
   gap: 0.6rem !important;
 }
 
-h2::before, h2::after {
+h2::before, h2::after,
+.section-title-main::before, .section-title-main::after {
   content: "✦" !important;
   font-family: sans-serif !important;
-  font-size: 0.95rem !important;
-  color: var(--accent-gold, #F7DB87) !important;
+  font-size: 0.85rem !important;
+  color: var(--accent-gold) !important;
+}
+
+/* Project Titles: Silkscreen 8-bit aesthetic */
+h3,
+.project-header h3,
+.project-card h3 {
+  font-family: var(--font-silkscreen), var(--font-pixel), monospace !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  color: var(--accent-gold) !important;
+  text-transform: uppercase !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+/* Stills & Subsection Titles */
+h4,
+.stills-heading,
+.carousel-group h4 {
+  font-family: var(--font-pixel) !important;
+  font-size: 0.78rem !important;
+  color: var(--accent-gold) !important;
+  letter-spacing: 0.05em !important;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  display: block;
 }
 
 /* ==========================================================================
-   6. HERO BANNER & AMBIENT STAR TWINKLE
+   5. HEADER & AMBIENT STAR BANNER
    ========================================================================== */
+.site-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1rem 0 !important;
+}
+
+.banner-container {
+  max-width: var(--max-width);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .hero-banner {
   position: relative;
   display: block;
@@ -244,14 +202,7 @@ h2::before, h2::after {
   animation: starBreathe infinite ease-in-out;
 }
 
-.twinkle-spot.moon-flare {
-  top: 39.8%;
-  left: 50.1%;
-  width: 28px;
-  height: 28px;
-  animation-duration: 7.2s;
-}
-
+.twinkle-spot.moon-flare { top: 39.8%; left: 50.1%; width: 28px; height: 28px; animation-duration: 7.2s; }
 .twinkle-spot.star-l1 { top: 47.5%; left: 4.8%;  width: 14px; height: 14px; animation-duration: 5.6s; animation-delay: 0.8s; }
 .twinkle-spot.star-l2 { top: 67.5%; left: 4.2%;  width: 16px; height: 16px; animation-duration: 6.8s; animation-delay: 2.1s; }
 .twinkle-spot.star-l4 { top: 39.5%; left: 13.5%; width: 12px; height: 12px; animation-duration: 5.2s; animation-delay: 3.2s; }
@@ -260,8 +211,90 @@ h2::before, h2::after {
 .twinkle-spot.star-r4 { top: 40.5%; left: 70.8%; width: 12px; height: 12px; animation-duration: 5.5s; animation-delay: 3.8s; }
 
 /* ==========================================================================
-   7. PROJECT HEADERS, HIGHLIGHTS & MEDIA
+   6. SUB-NAV BAR (PROMINENT PIXEL FONT & BALANCED GAP)
    ========================================================================== */
+.sub-nav {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 1.75rem !important;
+  margin: 0.35rem auto 3.75rem auto !important;
+  padding: 0 1rem !important;
+  max-width: 1100px !important;
+  white-space: nowrap !important;
+}
+
+.nav-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.sub-nav a {
+  font-family: var(--font-pixel) !important;
+  font-size: 0.85rem !important;
+  line-height: 1.2 !important;
+  color: var(--accent-gold) !important;
+  letter-spacing: 0.05em !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  display: inline-block !important;
+  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease !important;
+}
+
+.sub-nav a:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(247, 219, 135, 0.85) !important;
+  transform: translateY(-2px) !important;
+}
+
+.sub-nav .nav-star {
+  font-size: 0.8rem !important;
+  color: var(--accent-gold) !important;
+  opacity: 0.75 !important;
+  user-select: none;
+  animation: pulseStar 2.5s infinite ease-in-out;
+}
+
+/* Hidden by default on desktop; activated in mobile media query */
+.mobile-nav-star {
+  display: none;
+}
+
+/* ==========================================================================
+   7. MAIN CONTAINER & PROJECT CARDS
+   ========================================================================== */
+.content-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem 3rem 1rem;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-gold);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+section {
+  scroll-margin-top: 2rem;
+}
+
+#about p {
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+#about strong {
+  color: var(--accent-gold);
+}
+
 .project-header {
   margin-bottom: 0.75rem;
 }
@@ -269,10 +302,14 @@ h2::before, h2::after {
 .project-role {
   display: block;
   font-family: var(--font-pixel);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--text-muted);
-  font-style: italic;
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
+  letter-spacing: 0.03em;
+}
+
+.project-tagline {
+  margin-bottom: 0.75rem;
 }
 
 .project-desc {
@@ -281,7 +318,7 @@ h2::before, h2::after {
 
 .project-bullet-list {
   list-style: none;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   padding-left: 0;
 }
 
@@ -290,7 +327,7 @@ h2::before, h2::after {
   color: var(--text-muted);
   margin-bottom: 0.75rem;
   position: relative;
-  padding-left: 1.2rem;
+  padding-left: 1.25rem;
   line-height: 1.5;
 }
 
@@ -303,25 +340,27 @@ h2::before, h2::after {
   top: 0.15rem;
 }
 
+/* Button Links */
 .project-links {
   display: flex !important;
   flex-direction: row;
   align-items: center;
   gap: 1.25rem !important;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
 }
 
 .project-links a {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-pixel);
+  font-family: var(--font-pixel, monospace);
   font-size: 0.75rem;
   color: var(--accent-gold);
   background: rgba(247, 219, 135, 0.05);
   border: 1px solid var(--border-gold);
-  padding: 0.6rem 1.1rem;
+  padding: 0.65rem 1.15rem;
   border-radius: 4px;
   white-space: nowrap;
   letter-spacing: 0.04em;
@@ -338,36 +377,45 @@ h2::before, h2::after {
   opacity: 1;
 }
 
-.stills-heading,
-#tdi h4,
-#ninja-girl h4 {
-  font-family: var(--font-pixel) !important;
-  font-size: 0.8rem !important;
-  color: var(--accent-gold) !important;
-  text-transform: none !important;
-  letter-spacing: 0.05em;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
+/* ==========================================================================
+   8. ACTIVE PRODUCTIONS (TDI & NINJA GIRL DESKTOP LAYOUTS)
+   ========================================================================== */
+.featured-hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid var(--border-gold);
   display: block;
 }
 
+.project-split-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.project-split-layout .project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-split-layout .featured-hero-img {
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+  object-position: top center;
+}
+
 /* ==========================================================================
-   8. CAROUSELS
+   9. CAROUSELS & BELLEMINT GALLERIES
    ========================================================================== */
 .carousels-container {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2.25rem;
   margin-top: 1.5rem;
-}
-
-.carousel-group h4 {
-  font-size: 0.8rem;
-  margin-bottom: 0.75rem;
-  font-family: var(--font-pixel);
-  color: var(--accent-gold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .carousel-wrapper {
@@ -417,11 +465,14 @@ h2::before, h2::after {
   object-fit: cover;
 }
 
+.carousel-track img:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-gold-bright);
+}
+
 .landscape-carousel .carousel-track img {
   height: 200px;
-  width: auto;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
 }
 
 .carousel-btn {
@@ -448,15 +499,67 @@ h2::before, h2::after {
   box-shadow: 0 0 10px rgba(247, 219, 135, 0.3);
 }
 
+.carousel-btn.is-hidden {
+  display: none;
+}
+
+/* Feature Callout (Hair Highlight Desktop) */
+.feature-callout {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid var(--border-gold) !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  border-radius: 4px !important;
+}
+
+.feature-badge {
+  font-family: var(--font-pixel) !important;
+  font-size: 0.7rem !important;
+  color: var(--accent-gold) !important;
+  text-transform: uppercase !important;
+  margin-bottom: 0.5rem !important;
+  display: block !important;
+}
+
+.feature-gallery {
+  display: flex !important;
+  align-items: stretch !important;
+  gap: 0.75rem !important;
+  width: 100% !important;
+  margin-top: 1.25rem !important;
+  overflow-x: auto !important;
+}
+
+.feature-gallery img {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  height: 240px !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(247, 219, 135, 0.25) !important;
+  background-color: #121216 !important;
+  display: block !important;
+  transition: transform 0.25s ease, border-color 0.25s ease !important;
+}
+
+.feature-gallery img:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(247, 219, 135, 0.65) !important;
+}
+
+/* Bellemint Static 5-Card Rows: Desktop 5-Columns Edge-to-Edge */
 .carousel-wrapper.bellemint-static-row {
-  display: block;
-  padding: 1rem;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 1rem !important;
 }
 
 .carousel-wrapper.bellemint-static-row .carousel-track {
   display: grid !important;
   grid-template-columns: repeat(5, 1fr) !important;
-  gap: 0.65rem !important;
+  gap: 1rem !important;
   width: 100% !important;
   overflow: visible !important;
   padding: 0 !important;
@@ -471,7 +574,7 @@ h2::before, h2::after {
 }
 
 /* ==========================================================================
-   9. SELFCARE SCREENSHOTS ROW
+   10. #SELFCARE APP SCREENSHOTS ROW
    ========================================================================== */
 .app-screenshots-grid {
   display: flex;
@@ -506,6 +609,12 @@ h2::before, h2::after {
   );
   border-radius: 999px;
   box-shadow: 0 0 6px rgba(247, 219, 135, 0.35);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-screenshots-grid::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-gold);
+  box-shadow: 0 0 10px rgba(247, 219, 135, 0.7);
 }
 
 .app-screenshots-grid img {
@@ -525,10 +634,15 @@ h2::before, h2::after {
 }
 
 /* ==========================================================================
-   10. WITCHY DESKTOP WIDGETS (LARGE, FILLING CARD PREVIEWS)
+   11. WITCHY WIDGET SHOWCASE & TAROT CONTAINER FIXES
    ========================================================================== */
 .widget-showcase {
   text-align: center;
+}
+
+.centered-header {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .widget-intro-blurb {
@@ -553,7 +667,7 @@ h2::before, h2::after {
 
 .mockup-label {
   display: block;
-  font-family: var(--font-pixel);
+  font-family: var(--font-pixel, monospace);
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   color: var(--accent-gold);
@@ -588,25 +702,26 @@ h2::before, h2::after {
 }
 
 .widget-card-item {
-  background: rgba(18, 18, 22, 0.75);
-  border: 1px solid rgba(247, 219, 135, 0.25);
+  background: rgba(18, 18, 22, 0.65);
+  border: 1px solid rgba(247, 219, 135, 0.2);
   border-radius: 10px;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
   transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .widget-card-item:hover {
   transform: translateY(-5px);
   border-color: rgba(247, 219, 135, 0.7);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6), 0 0 16px rgba(247, 219, 135, 0.15);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6), 0 0 16px rgba(247, 219, 135, 0.12);
 }
 
-/* Card image box sized so widgets visibly fill the card */
 .widget-img-box {
   width: 100%;
-  height: 380px !important;
+  height: 480px;
   background: #0d0d11;
   border-radius: 8px;
   overflow: hidden;
@@ -614,17 +729,16 @@ h2::before, h2::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.6rem !important;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .widget-img-box img {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
-  object-fit: contain !important;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.7));
-  transform: scale(1.08);
+  display: block;
 }
 
 .widget-caption {
@@ -635,13 +749,14 @@ h2::before, h2::after {
 }
 
 .widget-caption h4 {
-  font-family: var(--font-pixel);
+  font-family: var(--font-pixel, monospace);
   font-size: 0.82rem;
   line-height: 1.4;
   letter-spacing: 0.05em;
   color: var(--accent-gold);
   min-height: 2.4em; 
   margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 .widget-caption p {
@@ -653,7 +768,7 @@ h2::before, h2::after {
 }
 
 /* ==========================================================================
-   11. FOOTER & ANIMATIONS
+   12. FOOTER & KEYFRAME ANIMATIONS
    ========================================================================== */
 footer {
   text-align: center;
@@ -673,11 +788,11 @@ footer {
 
 .social-links a {
   font-family: var(--font-pixel);
-  font-size: 0.75rem;
-  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+  padding: 0.4rem 0.8rem;
   border: 1px solid var(--border-gold);
   background: rgba(247, 219, 135, 0.05);
-  border-radius: 4px;
+  border-radius: 2px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -710,19 +825,207 @@ footer {
 }
 
 /* ==========================================================================
-   12. MEDIA QUERIES (RESPONSIVENESS)
+   13. DEDICATED RESPONSIVE / MOBILE MEDIA QUERIES
    ========================================================================== */
-@media (max-width: 768px) {
-  .widget-grid-trio {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
+/* Navigation: 3 clean, balanced symmetrical rows on mobile */
   .sub-nav {
-    gap: 1.2rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    margin-bottom: 2rem !important;
+    white-space: normal !important;
   }
-  
+
+  .nav-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.75rem !important;
+  }
+
   .sub-nav a {
+    font-size: 0.72rem !important;
+    padding: 0.2rem 0.3rem !important;
+  }
+
+  .sub-nav .nav-star {
+    font-size: 0.65rem !important;
+    display: inline-block !important;
+  }
+
+  .mobile-nav-star {
+    display: inline-block !important;
+  }
+
+  /* Ninja Girl spacing: tuck links closer to bullet points to match TDI */
+  #ninja-girl .project-bullet-list {
+    margin-bottom: 0.5rem !important;
+  }
+
+  #ninja-girl .project-links {
+    margin-top: 0.75rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Stack Ninja Girl Layout & Fix Poster Proportions */
+  .project-split-layout {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  .project-split-layout .featured-media {
+    order: 2;
+    width: 100% !important;
+  }
+
+  .project-split-layout .featured-hero-img {
+    width: 100% !important;
+    height: auto !important;             /* Eliminates squishing */
+    max-height: none !important;        /* Restores full vertical poster height */
+    object-fit: contain !important;
+    display: block !important;
+  }
+
+  /* Bellemint Hair Feature: Single Row with Sleek Mobile Scrollbar */
+  .feature-gallery {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scroll-snap-type: x mandatory !important;
+    gap: 0.85rem !important;
+    width: 100% !important;
+    padding-bottom: 0.85rem !important;
+    margin-top: 1.25rem !important;
+
+    /* Firefox */
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(247, 219, 135, 0.6) rgba(14, 14, 18, 0.7) !important;
+  }
+
+  .feature-gallery::-webkit-scrollbar {
+    height: 5px !important;
+    display: block !important;
+  }
+
+  .feature-gallery::-webkit-scrollbar-track {
+    background: rgba(14, 14, 18, 0.7) !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(247, 219, 135, 0.1) !important;
+  }
+
+  .feature-gallery::-webkit-scrollbar-thumb {
+    background: rgba(247, 219, 135, 0.6) !important;
+    border-radius: 999px !important;
+    box-shadow: 0 0 6px rgba(247, 219, 135, 0.35) !important;
+  }
+
+  .feature-gallery img {
+    flex: 0 0 auto !important;
+    width: 130px !important;            /* Fixed width so cards maintain clean portrait proportions */
+    height: 230px !important;
+    aspect-ratio: 9 / 16 !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+    border-radius: 6px !important;
+    scroll-snap-align: start !important;
+  }
+
+  /* Bellemint Daily Challenges & Stylist Edits: Scrollable with Sleek Scrollbar */
+  .carousel-wrapper.bellemint-static-row {
+    padding: 0.75rem !important;
+  }
+
+  .carousel-wrapper.bellemint-static-row .carousel-track {
+    display: flex !important;
+    grid-template-columns: none !important;
+    overflow-x: auto !important;
+    gap: 0.85rem !important;
+    padding-bottom: 0.85rem !important;
+    scroll-snap-type: x mandatory !important;
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(247, 219, 135, 0.6) rgba(14, 14, 18, 0.7) !important;
+  }
+
+  .carousel-wrapper.bellemint-static-row .carousel-track::-webkit-scrollbar {
+    height: 5px !important;
+    display: block !important;
+  }
+
+  .carousel-wrapper.bellemint-static-row .carousel-track::-webkit-scrollbar-track {
+    background: rgba(14, 14, 18, 0.7) !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(247, 219, 135, 0.1) !important;
+  }
+
+  .carousel-wrapper.bellemint-static-row .carousel-track::-webkit-scrollbar-thumb {
+    background: rgba(247, 219, 135, 0.6) !important;
+    border-radius: 999px !important;
+    box-shadow: 0 0 6px rgba(247, 219, 135, 0.35) !important;
+  }
+
+  .carousel-wrapper.bellemint-static-row .carousel-track img {
+    height: 250px !important;
+    width: auto !important;
+    aspect-ratio: 9 / 16 !important;
+    flex: 0 0 auto !important;
+    scroll-snap-align: start !important;
+  }
+
+  /* Stack Widgets into Single Column */
+  .widget-grid-trio {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .widget-img-box {
+    height: 380px !important;
+  }
+
+  .project-card {
+    padding: 1.25rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  h2, .section-title-main {
+    font-size: 0.75rem !important;
+  }
+
+  h3, .project-header h3, .project-card h3 {
     font-size: 1rem !important;
+  }
+
+@media (max-width: 480px) {
+  .sub-nav a {
+    font-size: 0.65rem !important;
+  }
+
+  .project-links {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+
+  .project-links a {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .carousel-track img {
+    height: 220px !important;
+  }
+
+  .landscape-carousel .carousel-track img {
+    height: 160px !important;
+  }
+
+  .app-screenshots-grid img {
+    height: 260px !important;
+  }
+
+  .app-screenshots-grid::-webkit-scrollbar-track {
+    margin: 0 1rem !important;
   }
 }
