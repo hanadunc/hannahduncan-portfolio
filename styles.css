@@ -3,14 +3,14 @@
    ========================================================================== */
 @font-face {
   font-family: 'Pixelta';
-  src: url('fonts/PixeltaRegular-IxoDw.ttf') format('truetype');
+  src: url('assets/fonts/PixeltaRegular-IxoDw.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Silkscreen';
-  src: url('fonts/Silkscreen-Regular.ttf') format('truetype');
+  src: url('assets/fonts/Silkscreen-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
