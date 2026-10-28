@@ -13,25 +13,25 @@
 }
 
 /* ==========================================================================
-   NAVIGATION BAR
+   NAVIGATION BAR (CLEAN CRISP RETRO-PIXEL)
    ========================================================================== */
 .sub-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  margin: 2rem auto;
+  gap: 1.5rem;
+  margin: 2.5rem auto 3rem auto;
   padding: 0 1rem;
-  text-align: center;
 }
 
 .sub-nav a {
-  font-family: 'Pixelta', 'Silkscreen', 'Press Start 2P', monospace, sans-serif;
-  font-size: 0.85rem;
+  font-family: 'Press Start 2P', 'Silkscreen', monospace !important;
+  font-size: 0.72rem !important;
+  font-weight: normal;
   color: var(--accent-gold);
   text-decoration: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease;
   display: inline-block;
@@ -39,7 +39,7 @@
 
 .sub-nav a:hover {
   color: var(--border-gold-bright, #fff);
-  text-shadow: 0 0 8px rgba(247, 219, 135, 0.6);
+  text-shadow: 0 0 10px rgba(247, 219, 135, 0.7);
   transform: translateY(-1px);
 }
 
@@ -71,18 +71,15 @@
   --font-body: 'Inter', system-ui, sans-serif;    /* Body Copy */
 }
 
-/* Enforce Identical Size & Typography Across All Section Headers */
-#about h2,
-#professional-projects h2,
-#personal-projects h2,
-h2, 
-.section-title-main {
-  font-family: var(--font-gothic) !important;
-  font-size: 1.3rem !important;
-  line-height: 1.4 !important;
-  letter-spacing: 0.03em !important;
-  text-transform: uppercase !important;
-  color: var(--accent-gold) !important;
+.project-card h2,
+#about h2 {
+  font-family: 'Silkscreen', 'Cinzel', serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  color: var(--accent-gold);
+  letter-spacing: 0.12em;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
 }
 
 /* Game & Project Titles */
