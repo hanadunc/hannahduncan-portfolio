@@ -135,37 +135,29 @@ a:hover {
 }
 
 /* ==========================================================================
-   4. NAVIGATION BAR (PROMINENT & CLEAN)
+   NAVIGATION BAR (SILKSCREEN RETRO-PIXEL)
    ========================================================================== */
-.site-header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 1rem 1rem;
-}
-
 .sub-nav {
   display: flex !important;
-  align-items: center !important;
   justify-content: center !important;
-  gap: 1.6rem !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 1.5rem !important;
   margin: 2.5rem auto 3rem auto !important;
   padding: 0 1rem !important;
-  flex-wrap: wrap !important;
+  max-width: 1100px;
 }
 
 .sub-nav a {
-  font-family: var(--font-serif-gothic) !important;
-  font-size: 1.12rem !important;
+  font-family: 'Silkscreen', monospace !important;
+  font-size: 0.95rem !important; /* Scaled up to be clearly readable */
   font-weight: 700 !important;
-  color: var(--accent-gold) !important;
-  letter-spacing: 0.12em !important;
+  color: var(--accent-gold, #F7DB87) !important;
+  letter-spacing: 0.08em !important;
   text-decoration: none !important;
   text-transform: uppercase !important;
-  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease !important;
   display: inline-block !important;
+  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease !important;
 }
 
 .sub-nav a:hover {
@@ -174,43 +166,42 @@ a:hover {
   transform: translateY(-2px) !important;
 }
 
-.nav-star {
-  color: var(--accent-gold) !important;
-  font-size: 0.9rem !important;
+.sub-nav .nav-star {
+  font-size: 0.85rem !important;
+  color: var(--accent-gold, #F7DB87) !important;
   opacity: 0.75 !important;
   user-select: none;
-  animation: pulseStar 2.5s infinite ease-in-out;
 }
 
 /* ==========================================================================
-   5. LAYOUT CONTAINERS
+   SECTION HEADINGS (MATCHING SILKSCREEN RETRO-PIXEL)
    ========================================================================== */
-.content-container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 1rem 1rem 3rem;
+h2,
+.project-card h2,
+#about h2,
+#active-productions h2,
+#personal-projects h2,
+#archive h2,
+.section-title-main {
+  font-family: 'Silkscreen', monospace !important;
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  color: var(--accent-gold, #F7DB87) !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  border-bottom: 1px solid var(--border-gold) !important;
+  padding-bottom: 0.6rem !important;
+  margin-bottom: 1.75rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
 }
 
-.project-card, .section-box {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-gold);
-  padding: 2rem;
-  margin-bottom: 3rem;
-  border-radius: 4px;
-  position: relative;
-}
-
-section {
-  scroll-margin-top: 2rem;
-}
-
-#about p {
-  line-height: 1.8;
-  font-size: 1rem;
-}
-
-#about strong {
-  color: var(--accent-gold);
+h2::before, h2::after {
+  content: "✦" !important;
+  font-family: sans-serif !important;
+  font-size: 0.95rem !important;
+  color: var(--accent-gold, #F7DB87) !important;
 }
 
 /* ==========================================================================
