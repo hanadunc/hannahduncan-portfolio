@@ -274,9 +274,19 @@ h4,
   animation: pulseStar 2.5s infinite ease-in-out;
 }
 
-/* Mobile star divider is hidden on desktop */
-.mobile-nav-star {
-  display: none !important;
+/* Diamonds display by default in the desktop single line */
+.nav-diamond {
+  color: var(--accent-gold);
+  font-size: 0.75rem;
+  user-select: none;
+}
+
+.mobile-diamond {
+  display: none !important; /* Hidden on desktop so it doesn't double up */
+}
+
+.desktop-divider {
+  display: inline-block !important; /* Visible between ACTIVE PRODUCTIONS and PERSONAL PROJECTS on desktop */
 }
 
 /* ==========================================================================
@@ -942,6 +952,15 @@ footer {
     display: inline-block !important;
   }
 
+  /* Mobile 3-tier navigation toggles */
+  .desktop-divider {
+    display: none !important; /* Hide end-of-row-1 diamond so mobile doesn't dangle a trailing star */
+  }
+
+  .mobile-diamond {
+    display: inline-block !important; /* Re-enables the left star for PERSONAL PROJECTS on mobile */
+  }
+
   /* Tighten Ninja Girl spacing on mobile */
   #ninja-girl .project-bullet-list {
     margin-bottom: 0.5rem !important;
@@ -1122,3 +1141,4 @@ footer {
     width: 44px !important;
     height: 44px !important;
   }
+}
